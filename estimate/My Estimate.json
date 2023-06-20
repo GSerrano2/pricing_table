@@ -1,0 +1,88 @@
+{
+	"Nombre": "My Estimate",
+	"Costo total": {
+		"mensual": "1187.31",
+		"inicial": "0.00",
+		"12 meses": "14247.77"
+	},
+	"Metadatos": {
+		"Divisa": "USD",
+		"Configuración regional": "es_ES",
+		"Creado el": "16/6/2023",
+		"Descargo de responsabilidad legal": "La Calculadora de precios de AWS proporciona únicamente una estimación de sus tarifas de AWS y no incluye los impuestos que puedan aplicarse. El valor real de sus tarifas depende de una serie de factores, entre los que se incluye su uso real de AWS.",
+		"Compartir URL": "https://calculator.aws/#/estimate?id=2bf5d4cbb6d9e5793bf560650cf0cdb13f29eed9"
+	},
+	"Grupos": {
+		"Servicios": [
+			{
+				"Nombre del servicio": "S3 Standard",
+				"Descripción": "S3 backup",
+				"Región": "EE. UU. Este (Ohio)",
+				"Estado": "",
+				"Costo del servicio": {
+					"mensual": "943.08",
+					"inicial": "0.00",
+					"12 meses": "11316.96"
+				},
+				"Propiedades": {
+					"Almacenamiento de S3 Estándar": "40 TB por mes"
+				}
+			},
+			{
+				"Nombre del servicio": "Data Transfer",
+				"Descripción": "S3 backup",
+				"Región": "EE. UU. Este (Ohio)",
+				"Estado": "",
+				"Costo del servicio": {
+					"mensual": "0.00",
+					"inicial": "0.00",
+					"12 meses": "0.00"
+				},
+				"Propiedades": {}
+			},
+			{
+				"Nombre del servicio": "Amazon EC2 ",
+				"Descripción": "instancias + BBDD",
+				"Región": "EE. UU. Este (Ohio)",
+				"Estado": "",
+				"Costo del servicio": {
+					"mensual": "95.18",
+					"inicial": "0.00",
+					"12 meses": "1142.21"
+				},
+				"Propiedades": {
+					"Tenencia": "Instancias compartidas",
+					"Sistema operativo": "Linux",
+					"Carga de trabajo": "Consistent, Número de instancias: 4",
+					"Instancia EC2 por adelantado": "t3.micro",
+					"Pricing strategy": "On-Demand Utilization: 50 %Utilized/Month",
+					"Habilitar la monitorización": "desactivado",
+					"EBS Cantidad de almacenamiento": "500 GB",
+					"DT Entrada: Not selected": "0 TB al mes",
+					"DT Salida: Not selected": "0 TB al mes",
+					"DT Intra-región:": "0 TB al mes"
+				}
+			},
+			{
+				"Nombre del servicio": "Amazon AppStream 2.0",
+				"Descripción": "publicar en entorno",
+				"Región": "EE. UU. Este (Ohio)",
+				"Estado": "",
+				"Costo del servicio": {
+					"mensual": "149.05",
+					"inicial": "0.00",
+					"12 meses": "1788.60"
+				},
+				"Propiedades": {
+					"Tipo de instancia": "stream.standard.medium",
+					"Sistema operativo": "Windows",
+					"Modelo de licencia": "Licencia comercial incluida",
+					"Periodo pico (horas) por día": "5",
+					"Días de la semana": "5",
+					"Promedio de usuarios simultáneos en horas pico por hora": "5",
+					"Días en el fin de semana": "2"
+				}
+			}
+		]
+	}
+}
