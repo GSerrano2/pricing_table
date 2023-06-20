@@ -8,5 +8,3 @@ ENV_ACTIVATE = "\env\bin\activate"
 ENV_INSTALL = "pip3 install -r requirements.txt"
 
 ESTIMATE = "estimate"
-
-API_KEY = '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'
